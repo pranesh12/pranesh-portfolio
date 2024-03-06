@@ -30,7 +30,7 @@ const About = () => {
       >
         <div className="text-center border-b-indigo-500 ">
           <h1 className="font-bold text-5xl pb-2 pt-10">About Me</h1>
-          <p className="font-normal">
+          <p className="font-normal mt-4">
             You will find a little about me and technologies i use daily
           </p>
         </div>
@@ -42,7 +42,7 @@ const About = () => {
                 Want to know me?
               </h5>
             </div>
-            <div className="pb-3  md:px-0">
+            <div className="pb-3 text-justify  md:px-0">
               <p>
                 Web developer proficient in JavaScript with hands-on excercise
                 in, Next.js, React, Node.js, MongoDB and Express.js.
@@ -52,7 +52,7 @@ const About = () => {
                 speed and achieving impressive Lighthouse Scores.
               </p>
             </div>
-            <div className="pb-3 px-2 md:px-0">
+            <div className="pb-3 text-justify md:px-0">
               <p>
                 I hold B.Sc. in Computer Science & Engineering and is fluent in
                 Bengali, English, and Hindi. Committed to continuous learning

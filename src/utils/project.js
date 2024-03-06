@@ -47,7 +47,7 @@ export const projects = [
     name: "Pranesh Portfolio",
     heading: "Portfolio",
     detail:
-      "Shop Nest, is a user-friendly e-commerce platform with streamlined browsing, secure payments, and efficient admin tools.",
+      "It's a portfolio website for showcasing my education,skills,projects,contact and other information ",
 
     tech: ["Next.js", "Tailwind css", "Daisy ui"],
     source: "https://github.com/pranesh12/Shop-nest-client",

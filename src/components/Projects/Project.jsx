@@ -11,7 +11,7 @@ const Project = () => {
           <h1 className="font-bold text-4xl md:text-5xl pb-2 pt-10">
             Projects
           </h1>
-          <p className="font-normal">
+          <p className="font-normal mt-4">
             These are some of the projects I built to practice and get better at
             the technologies mentioned above.
           </p>
