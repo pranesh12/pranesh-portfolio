@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { TbHexagonLetterP } from "react-icons/tb";
+import { AiFillApi } from "react-icons/ai";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,13 +54,18 @@ const Navbar = () => {
                 <li>
                   <a href="/#education">Education</a>
                 </li>
+                <li>
+                  <a href="/#contact">Contact</a>
+                </li>
               </ul>
             )}
           </div>
 
-          <button className="invisible  md:visible text-4xl">
-            <TbHexagonLetterP />
-          </button>
+          <a href="https://www.linkedin.com/in/pranesh-chakma/" target="_blank">
+            <button className="invisible  md:visible text-4xl">
+              <AiFillApi />
+            </button>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex items-baseline">
           <ul className="menu menu-horizontal px-1 font-semibold">
@@ -76,11 +82,16 @@ const Navbar = () => {
             <li>
               <a href="/#education">Education</a>
             </li>
+            <li>
+              <a href="/#contact">Contact</a>
+            </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="#contact" className="btn btn-outline btn-sm">
-            Contact
+          <a href="/#contact">
+            <button className=" text-4xl">
+              <TbHexagonLetterP />
+            </button>
           </a>
         </div>
       </div>

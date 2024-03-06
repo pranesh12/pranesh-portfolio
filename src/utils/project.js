@@ -50,7 +50,7 @@ export const projects = [
       "It's a portfolio website for showcasing my education,skills,projects,contact and other information ",
 
     tech: ["Next.js", "Tailwind css", "Daisy ui"],
-    source: "https://github.com/pranesh12/Shop-nest-client",
+    source: "https://github.com/pranesh12/pranesh-portfolio/",
     live: "https://github.com/pranesh12/Shop-nest-client",
     image:
       "https://i.ibb.co/Ch96n1m/screenshot-localhost-3000-2024-03-06-15-46-13.png",
