@@ -62,7 +62,7 @@ const Navbar = () => {
             <TbHexagonLetterP />
           </button>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex items-baseline">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
               <a href="#top">Home</a>
