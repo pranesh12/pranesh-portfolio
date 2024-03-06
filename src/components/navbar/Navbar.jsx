@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { TbHexagonLetterP } from "react-icons/tb";
-const isSmallScreen = window.innerWidth <= 768;
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +56,7 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          {/* <a className="btn btn-ghost text-xl">Pranesh </a> */}
+
           <button className="invisible  md:visible text-4xl">
             <TbHexagonLetterP />
           </button>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import ok from "../../../public/asset/ok.webp";
 import Link from "next/link";
 

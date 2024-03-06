@@ -1,5 +1,4 @@
 import { educations } from "@/utils/education";
-import React from "react";
 
 const Education = () => {
   return (
@@ -18,7 +17,7 @@ const Education = () => {
           {educations.map((e, idx) => {
             return (
               <>
-                <div key={idx} className="">
+                <div>
                   <h5 className="font-semibold">{e.degreeName}</h5>
                   <p>{e.institution}</p>
                 </div>

@@ -1,7 +1,5 @@
 import { projects } from "@/utils/project";
-
 import Link from "next/link";
-import React from "react";
 
 const Project = () => {
   return (
