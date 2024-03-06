@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import dev from "../../../public/asset/dev.png";
+import ok from "../../../public/asset/ok.webp";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,23 +18,30 @@ const Hero = () => {
             <div>
               <h1 className="font-semibold text-6xl">Pranesh Chakma</h1>
             </div>
-            <div>
+            <div className="mt-2">
               <p>
-                a passionate front end developer focoused on creating
-                interactive , scalable,responsive web app
+                A passionate web app developer focoused on creating interactive,
+                scalable,responsive web application.
               </p>
             </div>
 
             <div className="flex content-center gap-5 mt-5  justify-center md:justify-start ">
-              <button className="btn  btn-primary ">See my work</button>
-              <button className="btn btn-outline btn-primary">
-                View Resume
-              </button>
+              <Link href="/#projects">
+                <button className="btn  btn-primary ">See my work</button>
+              </Link>
+              <Link
+                href="https://drive.google.com/file/d/1Rlg15gSs-Z8oBNSWpXB-HaE1-tDXUk0W/view?usp=drive_link"
+                target="_blank"
+              >
+                <button className="btn btn-outline btn-primary">
+                  View Resume
+                </button>
+              </Link>
             </div>
           </div>
         </div>
         <div className="md:w-1/2 pt-6 md:pt-0 ">
-          <Image src={dev} />
+          <Image src={ok} />
         </div>
       </div>
     </div>

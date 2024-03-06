@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 const activeSkills = [
   "javascript",
@@ -11,7 +12,14 @@ const activeSkills = [
   "tailwindcss",
 ];
 
-const familiarTech = ["daisy ui", "material ui", "react-bootstrap", "java"];
+const familiarTech = [
+  "daisy ui",
+  "material ui",
+  "react-bootstrap",
+  "java",
+  "postgresql",
+  "Data Structure & Algorithms",
+];
 
 const About = () => {
   return (
@@ -27,34 +35,38 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row  gap-6 mt-16 justify-between">
-          <div className=" w/2 ">
+        <div className="flex flex-col md:flex-row  gap-6 mt-16 items-center md:justify-between">
+          <div className=" w-full md:w-1/2 ">
             <div>
               <h5 className="font-semibold text-xl pb-3  md:px-x-0 ">
                 Want to know me?
               </h5>
             </div>
-            <div className="pb-3 px-2 md:px-0">
+            <div className="pb-3  md:px-0">
               <p>
-                n publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content. Lorem ipsum
-                may be used as a placeholder before the final copy is available.
+                Web developer proficient in JavaScript with hands-on excercise
+                in, Next.js, React, Node.js, MongoDB and Express.js.
+                Successfully contributed to Shop Nest, an e-commerce platform
+                emphasizing modular architecture, JWT authentication, and Stripe
+                integration. Played a key role in New Dawn, optimizing site
+                speed and achieving impressive Lighthouse Scores.
               </p>
             </div>
             <div className="pb-3 px-2 md:px-0">
               <p>
-                n publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content. Lorem ipsum
-                may be used as a placeholder before the final copy is available.
+                I hold B.Sc. in Computer Science & Engineering and is fluent in
+                Bengali, English, and Hindi. Committed to continuous learning
+                and eager to bring valuable contributions to your organization.
+                Ready for new challenges and opportunities.
               </p>
             </div>
             <div>
-              <button className="btn  btn-primary mt-2">Contact Me</button>
+              <Link href="#contact">
+                <button className="btn  btn-primary mt-2">Contact Me</button>
+              </Link>
             </div>
           </div>
-          <div className="w/2 ">
+          <div className=" w-full md:w-1/2">
             <div>
               <div>
                 <h5 className="font-semibold pb-2  text-xl ">

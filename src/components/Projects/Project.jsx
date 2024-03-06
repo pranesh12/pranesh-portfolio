@@ -39,7 +39,7 @@ const Project = () => {
                         {project.tech.map((t, idx) => {
                           return (
                             <div key={idx}>
-                              <button className="btn btn-primary btn-outline gap-2 btn-sm">
+                              <button className="btn btn-primary btn-outline gap-2 btn-sm  font-medium">
                                 {t}
                               </button>
                             </div>
@@ -48,12 +48,12 @@ const Project = () => {
                       </div>
                       <div className="mt-5">
                         <Link target="_blank" href={project.live}>
-                          <button className="btn btn-primary  mr-5">
+                          <button className="btn btn-primary  mr-5  px-8">
                             Live
                           </button>
                         </Link>
                         <Link target="_blank" href={project.source}>
-                          <button className="btn btn-primary  mr-5">
+                          <button className="btn btn-primary  mr-5 px-8">
                             Code
                           </button>
                         </Link>

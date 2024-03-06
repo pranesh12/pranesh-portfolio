@@ -1,6 +1,7 @@
 "use client";
-import Link from "next/link";
 import React, { useState } from "react";
+import { TbHexagonLetterP } from "react-icons/tb";
+const isSmallScreen = window.innerWidth <= 768;
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,44 +42,47 @@ const Navbar = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium"
               >
                 <li>
-                  <Link href="#top">Home</Link>
+                  <a href="#top">Home</a>
                 </li>
 
                 <li>
-                  <Link href="#about">About</Link>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <Link href="/#projects">Projects</Link>
+                  <a href="/#projects">Projects</a>
                 </li>
                 <li>
-                  <Link href="#education">Education</Link>
+                  <a href="/#education">Education</a>
                 </li>
               </ul>
             )}
           </div>
-          <a className="btn btn-ghost text-xl">Pranesh </a>
+          {/* <a className="btn btn-ghost text-xl">Pranesh </a> */}
+          <button className="invisible  md:visible text-4xl">
+            <TbHexagonLetterP />
+          </button>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
-              <Link href="#top">Home</Link>
+              <a href="#top">Home</a>
             </li>
 
             <li>
-              <Link href="#about">About</Link>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <Link href="#projects">Projects</Link>
+              <a href="/#projects">Projects</a>
             </li>
             <li>
-              <Link href="#education">Education</Link>
+              <a href="/#education">Education</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link href="#contact" className="btn btn-outline btn-sm">
+          <a href="#contact" className="btn btn-outline btn-sm">
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </div>
